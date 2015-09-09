@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'Mongoose' ]
+2 info using npm@2.14.0
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /home/fabioale/Desktop/meetingbud/package.json
+6 warn package.json NodejsStarterApp@0.0.1 No license field.
+7 verbose installManyTop reading scoped package data from /home/fabioale/Desktop/meetingbud/node_modules/cfenv/package.json
+8 verbose installManyTop reading scoped package data from /home/fabioale/Desktop/meetingbud/node_modules/cloudant/package.json
+9 verbose installManyTop reading scoped package data from /home/fabioale/Desktop/meetingbud/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /home/fabioale/Desktop/meetingbud/node_modules/mongoose/package.json
+11 verbose readDependencies loading dependencies from /home/fabioale/Desktop/meetingbud/package.json
+12 silly cache add args [ 'Mongoose', null ]
+13 verbose cache add spec Mongoose
+14 silly cache add parsed spec { raw: 'Mongoose',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'Mongoose',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed Mongoose@*
+16 verbose addNamed "*" is a valid semver range for Mongoose
+17 silly addNameRange { name: 'Mongoose', range: '*', hasData: false }
+18 silly mapToRegistry name Mongoose
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry http://sbybz2161.sby.ibm.com:4873/
+21 silly mapToRegistry uri http://sbybz2161.sby.ibm.com:4873/Mongoose
+22 verbose addNameRange registry:http://sbybz2161.sby.ibm.com:4873/Mongoose not in flight; fetching
+23 verbose request uri http://sbybz2161.sby.ibm.com:4873/Mongoose
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 04:36:47
+26 verbose request using bearer token for auth
+27 verbose request id 00e05f5d731f68c5
+28 http request GET http://sbybz2161.sby.ibm.com:4873/Mongoose
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info attempt registry request try #2 at 04:36:57
+31 verbose request using bearer token for auth
+32 http request GET http://sbybz2161.sby.ibm.com:4873/Mongoose
+33 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+34 info attempt registry request try #3 at 04:37:57
+35 verbose request using bearer token for auth
+36 http request GET http://sbybz2161.sby.ibm.com:4873/Mongoose
+37 verbose stack Error: getaddrinfo ENOTFOUND
+37 verbose stack     at errnoException (dns.js:37:11)
+37 verbose stack     at Object.onanswer [as oncomplete] (dns.js:124:16)
+38 verbose cwd /home/fabioale/Desktop/meetingbud
+39 error Linux 3.5.0-54-generic
+40 error argv "node" "/usr/bin/npm" "install" "Mongoose"
+41 error node v0.10.37
+42 error npm  v2.14.0
+43 error code ENOTFOUND
+44 error errno ENOTFOUND
+45 error syscall getaddrinfo
+46 error network getaddrinfo ENOTFOUND
+46 error network This is most likely not a problem with npm itself
+46 error network and is related to network connectivity.
+46 error network In most cases you are behind a proxy or have bad network settings.
+46 error network
+46 error network If you are behind a proxy, please make sure that the
+46 error network 'proxy' config is set properly.  See: 'npm help config'
+47 verbose exit [ 1, true ]
